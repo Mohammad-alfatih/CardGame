@@ -1,9 +1,6 @@
 package CardGame;
 
 import java.util.ArrayList;
-import java.util.Scanner;
-
-import static com.sun.jmx.snmp.EnumRowStatus.active;
 
 /**
  * Created by alfatihmukhtar on 1/30/17.
@@ -28,9 +25,9 @@ public class GoFish extends CardGame{
         }
         while(!gameEnd) {
         singleTurn(userHand, dealerHand);
-        checkWinCondition(userHand);
+//        checkWinCondition(userHand);
         singleTurn(dealerHand, userHand);
-        checkWinCondition(dealerHand);
+//        checkWinCondition(dealerHand);
         return gameEnd;
         }
         return gameEnd;
@@ -50,7 +47,7 @@ public class GoFish extends CardGame{
         if(hasAMatch) {
             dealCard(activePlayer);
         }
-        ArrayList<ArrayList<Card>> stacks = checkForStacks(activePlayer);
+//        ArrayList<ArrayList<Card>> stacks = checkForStacks(activePlayer);
     }
 
     public ArrayList<Card> checkForStacks(ArrayList<Card> hand) {

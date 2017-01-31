@@ -20,8 +20,8 @@
       <file leaf-file-name="CardGame.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/CardGame/CardGame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="10" column="54" lean-forward="false" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
+            <state relative-caret-position="90">
+              <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="10" selection-end-column="55" />
               <folding>
                 <element signature="docComment;class#CardGame#0" expanded="false" />
                 <element signature="e#205#211#0" expanded="true" />
@@ -47,7 +47,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/CardGame/Ranks.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="6" column="68" lean-forward="true" selection-start-line="6" selection-start-column="68" selection-end-line="6" selection-end-column="68" />
+              <caret line="6" column="68" lean-forward="false" selection-start-line="6" selection-start-column="68" selection-end-line="6" selection-end-column="68" />
               <folding />
             </state>
           </provider>
@@ -57,7 +57,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/CardGame/BlackJack.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1305">
-              <caret line="137" column="13" lean-forward="true" selection-start-line="137" selection-start-column="13" selection-end-line="137" selection-end-column="13" />
+              <caret line="137" column="13" lean-forward="false" selection-start-line="137" selection-start-column="13" selection-end-line="137" selection-end-column="13" />
               <folding>
                 <element signature="docComment;class#BlackJack#0" expanded="false" />
                 <element signature="e#878#896#0" expanded="false" />
@@ -74,7 +74,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/CardGame/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="174">
-              <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+              <caret line="18" column="24" lean-forward="false" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -83,14 +83,27 @@
       <file leaf-file-name="GoFish.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/CardGame/GoFish.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="95" column="0" lean-forward="true" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
+            <state relative-caret-position="75">
+              <caret line="30" column="25" lean-forward="false" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1614#1620#0" expanded="true" />
-                <element signature="method#userTurn#0;class#GoFish#0" expanded="false" />
-                <element signature="method#compareHandValues#0;class#GoFish#0" expanded="false" />
-                <marker date="1485822183000" expanded="false" signature="3016:3250" ph="{...}" />
+                <element signature="e#1619#1625#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GoFishTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/CardGameTest/GoFishTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="444">
+              <caret line="33" column="60" lean-forward="false" selection-start-line="33" selection-start-column="60" selection-end-line="33" selection-end-column="60" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#433#439#0" expanded="true" />
+                <element signature="e#493#499#0" expanded="true" />
+                <element signature="e#646#652#0" expanded="true" />
+                <element signature="e#706#712#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -129,6 +142,7 @@
         <option value="$PROJECT_DIR$/src/main/java/CardGame/BlackJack.java" />
         <option value="$PROJECT_DIR$/src/main/java/CardGame/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/CardGame/Rank.java" />
+        <option value="$PROJECT_DIR$/src/test/java/CardGameTest/GoFishTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/CardGame/GoFish.java" />
       </list>
     </option>
@@ -271,7 +285,7 @@
       <recent name="CardGame" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.GoFishTest.TestDealCards">
     <configuration default="false" name="DeckTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -311,32 +325,6 @@
       <option name="PACKAGE_NAME" value="CardGameTest" />
       <option name="MAIN_CLASS_NAME" value="CardGameTest.DeckTest" />
       <option name="METHOD_NAME" value="TestshuffleDeck" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="DeckTest.TestGiveHandOfCards" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="CardGameTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="CardGame" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="CardGameTest" />
-      <option name="MAIN_CLASS_NAME" value="CardGameTest.DeckTest" />
-      <option name="METHOD_NAME" value="TestGiveHandOfCards" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -394,6 +382,32 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="CardGame" />
       <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="GoFishTest.TestDealCards" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="CardGameTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="CardGame" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="CardGameTest" />
+      <option name="MAIN_CLASS_NAME" value="CardGameTest.GoFishTest" />
+      <option name="METHOD_NAME" value="TestDealCards" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -779,17 +793,17 @@
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.DeckTest" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.DeckTest.TestshuffleDeck" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.DeckTest.TestGiveHandOfCards" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.DeckTest.TestGetCardFromDeck" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Main" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.DeckTest.TestGetCardFromDeck" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Main" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.GoFishTest.TestDealCards" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.DeckTest.TestshuffleDeck" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.DeckTest.TestGetCardFromDeck" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.DeckTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.DeckTest.TestGiveHandOfCards" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.GoFishTest.TestDealCards" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.DeckTest.TestshuffleDeck" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.DeckTest.TestGetCardFromDeck" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.DeckTest" />
       </list>
     </recent_temporary>
   </component>
@@ -805,7 +819,7 @@
       <updated>1485638007562</updated>
       <workItem from="1485638012673" duration="31661000" />
       <workItem from="1485777272644" duration="5056000" />
-      <workItem from="1485801614439" duration="19432000" />
+      <workItem from="1485801614439" duration="20587000" />
     </task>
     <servers />
   </component>
@@ -842,7 +856,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56149000" />
+    <option name="totallyTimeSpent" value="57304000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="723" extended-state="6" />
@@ -851,7 +865,7 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3169572" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3169572" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1183,7 +1197,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/CardGame/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
-          <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+          <caret line="18" column="24" lean-forward="false" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
           <folding />
         </state>
       </provider>
@@ -1199,24 +1213,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/CardGame/CardGame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="10" column="54" lean-forward="false" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
-          <folding>
-            <element signature="docComment;class#CardGame#0" expanded="false" />
-            <element signature="e#205#211#0" expanded="true" />
-            <element signature="e#261#267#0" expanded="true" />
-            <element signature="e#319#320#0" expanded="true" />
-            <element signature="e#367#368#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/CardGame/BlackJack.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1305">
-          <caret line="137" column="13" lean-forward="true" selection-start-line="137" selection-start-column="13" selection-end-line="137" selection-end-column="13" />
+          <caret line="137" column="13" lean-forward="false" selection-start-line="137" selection-start-column="13" selection-end-line="137" selection-end-column="13" />
           <folding>
             <element signature="docComment;class#BlackJack#0" expanded="false" />
             <element signature="e#878#896#0" expanded="false" />
@@ -1231,7 +1231,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/CardGame/Ranks.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="6" column="68" lean-forward="true" selection-start-line="6" selection-start-column="68" selection-end-line="6" selection-end-column="68" />
+          <caret line="6" column="68" lean-forward="false" selection-start-line="6" selection-start-column="68" selection-end-line="6" selection-end-column="68" />
           <folding />
         </state>
       </provider>
@@ -1252,16 +1252,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/CardGame/GoFish.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/CardGame/CardGame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="95" column="0" lean-forward="true" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
+        <state relative-caret-position="90">
+          <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="10" selection-end-column="55" />
+          <folding>
+            <element signature="docComment;class#CardGame#0" expanded="false" />
+            <element signature="e#205#211#0" expanded="true" />
+            <element signature="e#261#267#0" expanded="true" />
+            <element signature="e#319#320#0" expanded="true" />
+            <element signature="e#367#368#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/CardGameTest/GoFishTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="33" column="60" lean-forward="false" selection-start-line="33" selection-start-column="60" selection-end-line="33" selection-end-column="60" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1614#1620#0" expanded="true" />
-            <element signature="method#userTurn#0;class#GoFish#0" expanded="false" />
-            <element signature="method#compareHandValues#0;class#GoFish#0" expanded="false" />
-            <marker date="1485822183000" expanded="false" signature="3016:3250" ph="{...}" />
+            <element signature="e#433#439#0" expanded="true" />
+            <element signature="e#493#499#0" expanded="true" />
+            <element signature="e#646#652#0" expanded="true" />
+            <element signature="e#706#712#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/CardGame/GoFish.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="30" column="25" lean-forward="false" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1619#1625#0" expanded="true" />
           </folding>
         </state>
       </provider>

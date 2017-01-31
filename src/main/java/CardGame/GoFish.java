@@ -12,7 +12,7 @@ public class GoFish extends CardGame{
     int userScore;
     int dealerScore;
 
-    public void dealCards() {
+    public void dealGoFishHand() {
         for(int i=0;i<5;i++) {
             this.dealCard(userHand);
             this.dealCard(dealerHand);
@@ -71,46 +71,5 @@ public class GoFish extends CardGame{
                 hand.add(tempHand.get(k));
             } return tempHand;
         }
-    }
-
-    public void userTurn() {
-        Scanner ask = new Scanner(System.in);
-        System.out.println("User's current hand value is " + userHandValue);
-        System.out.println("(1)- Hit or (2)- stay? ");
-        int choice = ask.nextInt();
-        while (choice==1) {
-            dealCard(userHand);
-            this.userHandValue = calculateValue(userHand);
-            if(this.userHandValue==21) {
-                break;
-                // Ensure BlackJack game ends...
-            } else {
-                System.out.println(calculateValue(userHand));
-                System.out.println("(1)- Hit or (2)- stay? ");
-                choice = ask.nextInt();
-
-            }
-            //checkBustCondition();
-        }
-    }
-
-    // Write code to display cards in both hands.
-    public boolean checkWinCondition(ArrayList<Card> user, ArrayList<Card> dealer) {
-        if(calculateValue(user) > calculateValue(dealer)) {
-            System.out.println("You win!");
-            return true;
-        } else {
-            System.out.println("You lose!");
-            return false;
-        }
-    }
-
-    public boolean compareHandValues(ArrayList<Card> userHand, ArrayList<Card> dealerHand) {
-        int userHandValue = calculateValue(userHand);
-        int dealerHandValue = calculateValue(dealerHand);
-        if(userHandValue != 21 && dealerHandValue != 21){
-            return false;
-        } else
-            return true;
     }
 }

@@ -32,20 +32,20 @@ public class Deck {
             card.showCard();
         }
     }
-    public Card getNextCard() {
+    public Card getNextCard() {                                 // Returns a single Card object
         Card tempCard = deck.get(0);
         deck.remove(0);
         return tempCard;
     }
-    public ArrayList<Card> dealCard(int numberOfCards) {
+    public ArrayList<Card> dealCards(int numberOfCards) {       // Returns an ArrayList of Card objects
         ArrayList<Card> hand = new ArrayList<Card>();
         for(int i=0;i<numberOfCards;i++) {
             hand.add(deck.get(i));
-            removeCardsFromDeck(i);
+            removeCardFromDeck(i);
         }
         return hand;
     }
-    public void removeCardsFromDeck(int index) {
+    public void removeCardFromDeck(int index) {
         deck.remove(index);
     }
     public void shuffle() {

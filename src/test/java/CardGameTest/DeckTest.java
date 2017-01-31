@@ -50,14 +50,14 @@ public class DeckTest {
 
     @Test
     public void TestDealCard() {
-        ArrayList<Card> drawHand = deckObject.dealCard(2);
+        ArrayList<Card> drawHand = deckObject.dealCards(2);
         int expected = 2;
         int actual = drawHand.size();
         assertEquals("Your hand is not the right size",expected,actual);
     }
 
     @Test
-    public void TestRemoveCardsFromDeck() {
+    public void TestRemoveCardFromDeck() {
         deckObject.getCardDeck().remove(1);
         int expected = 51;
         int actual = deckObject.getCardDeck().size();

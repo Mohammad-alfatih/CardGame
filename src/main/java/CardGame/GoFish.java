@@ -9,20 +9,18 @@ public class GoFish extends CardGame{
     Player player = new Player();
     Player dealer = new Player();
 
-    public void dealGoFishHand() {
-        for(int i=0;i<5;i++) {
-            this.dealCard(userHand);
-            this.dealCard(dealerHand);
-        }
-    }
+//    public void dealGoFishHand() {
+//        for(int i=0;i<5;i++) {
+//            deck.dealCard(player);
+//            this.dealCard(dealerHand);
+//        }
+//    }
 
     public boolean playGoFish() {
         boolean gameEnd = false;
         deck.shuffle();
-        for(int i=0;i<5;i++) {
-            dealCard(userHand);
-            dealCard(dealerHand);
-        }
+        player.setHand(deck.dealCards(5));
+        dealer.setHand(deck.dealCards(5));
         while(gameEnd) {
         singleTurn(userHand, dealerHand);
 //        checkWinCondition(userHand);

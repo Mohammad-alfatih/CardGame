@@ -22,7 +22,7 @@ public class BlackJack extends CardGame {
 
     public boolean playBlackJack() {
         boolean gameEnd;
-        cardDeck.shuffle();
+        deck.shuffle();
         dealCards();
         gameEnd = compareHandValues(userHand, dealerHand);
         while(!gameEnd){

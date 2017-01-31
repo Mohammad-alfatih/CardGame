@@ -6,12 +6,12 @@ import java.util.ArrayList;
  * Created by alfatihmukhtar on 1/28/17.
  */
 public class CardGame {
-    CardDeck cardDeck = new CardDeck();
+    Deck deck = new Deck();
     ArrayList<Card> userHand = new ArrayList<Card>();
     ArrayList<Card> dealerHand = new ArrayList<Card>();
 
     public void dealCard(ArrayList<Card> hand) {
-        hand.add(cardDeck.getNextCard());
+        hand.add(deck.getNextCard());
     }
 
 

@@ -6,11 +6,13 @@ import java.util.Collections;
 /**
  * Created by alfatihmukhtar on 1/30/17.
  */
-public class CardDeck {
+public class Deck {
+    // FIELDS
     private ArrayList<Card> deck = new ArrayList<Card>();
-    public ArrayList<Card> hand;
+//    private ArrayList<Card> hand = new ArrayList<Card>();
 
-    public CardDeck() {
+    // CONSTRUCTORS
+    public Deck() {
         for(Suits suit : Suits.values()) {
             for(Ranks rank : Ranks.values()) {
                 Card card = new Card(suit, rank);
@@ -19,32 +21,34 @@ public class CardDeck {
         }
     }
 
-    public void shuffle() {
-        Collections.shuffle(this.deck);
-    }
-
-    public ArrayList<Card> giveHand() {
-        hand = new ArrayList<Card>();
-        for(int i=0;i<2;i++) {
-            hand.add(deck.get(i));
-            deck.remove(i);
-        }
-        return hand;
-    }
-
+    // GETTERS
     public ArrayList<Card> getCardDeck() {
         return deck;
     }
 
+    // METHODS
     public void seeDeck() {
         for(Card card : deck) {
             card.showCard();
         }
     }
-
     public Card getNextCard() {
         Card tempCard = deck.get(0);
         deck.remove(0);
         return tempCard;
+    }
+    public ArrayList<Card> dealCard(int numberOfCards) {
+        ArrayList<Card> hand = new ArrayList<Card>();
+        for(int i=0;i<numberOfCards;i++) {
+            hand.add(deck.get(i));
+            removeCardsFromDeck(i);
+        }
+        return hand;
+    }
+    public void removeCardsFromDeck(int index) {
+        deck.remove(index);
+    }
+    public void shuffle() {
+        Collections.shuffle(this.deck);
     }
 }

@@ -1,7 +1,7 @@
 package CardGameTest;
 
 import CardGame.Card;
-import CardGame.CardDeck;
+import CardGame.Deck;
 import CardGame.GoFish;
 import org.junit.Before;
 import org.junit.Test;
@@ -17,14 +17,14 @@ public class GoFishTest {
 
     @Before
     public void setUp() {
-        CardDeck cardDeck = new CardDeck();
+        Deck deck = new Deck();
         ArrayList<Card> userHand = new ArrayList<Card>();
         ArrayList<Card> dealerHand = new ArrayList<Card>();
     }
 
     @Test
     public void TestDealGoFishHand() {
-        CardDeck cardDeck = new CardDeck();
+        Deck deck = new Deck();
         ArrayList<Card> userHand = new ArrayList<Card>();
         ArrayList<Card> dealerHand = new ArrayList<Card>();
         GoFish game = new GoFish();
@@ -33,4 +33,6 @@ public class GoFishTest {
         int actual = userHand.size();
         assertEquals("This is not correct",expected,actual);
     }
+
+
 }

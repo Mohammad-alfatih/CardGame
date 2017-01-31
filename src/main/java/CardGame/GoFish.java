@@ -6,8 +6,8 @@ import java.util.ArrayList;
  * Created by alfatihmukhtar on 1/30/17.
  */
 public class GoFish extends CardGame{
-    int userScore;
-    int dealerScore;
+    Player player = new Player();
+    Player dealer = new Player();
 
     public void dealGoFishHand() {
         for(int i=0;i<5;i++) {
@@ -18,12 +18,12 @@ public class GoFish extends CardGame{
 
     public boolean playGoFish() {
         boolean gameEnd = false;
-        cardDeck.shuffle();
+        deck.shuffle();
         for(int i=0;i<5;i++) {
             dealCard(userHand);
             dealCard(dealerHand);
         }
-        while(!gameEnd) {
+        while(gameEnd) {
         singleTurn(userHand, dealerHand);
 //        checkWinCondition(userHand);
         singleTurn(dealerHand, userHand);

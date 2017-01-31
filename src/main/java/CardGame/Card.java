@@ -4,7 +4,7 @@ package CardGame;
  * Created by alfatihmukhtar on 1/28/17.
  */
 public class Card {
-    // STATES
+    // FIELDS
     private Suits suit;
     private Ranks rank;
 

@@ -23,7 +23,7 @@ public class GoFishTest {
     }
 
     @Test
-    public void TestDealCards() {
+    public void TestDealGoFishHand() {
         CardDeck cardDeck = new CardDeck();
         ArrayList<Card> userHand = new ArrayList<Card>();
         ArrayList<Card> dealerHand = new ArrayList<Card>();
